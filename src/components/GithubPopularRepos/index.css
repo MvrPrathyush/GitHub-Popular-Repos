@@ -1,1 +1,35 @@
 /* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+}
+
+.main-heading {
+  font-family: lobster;
+}
+
+.products-header-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.failure-view {
+  height: 50px;
+}
+
+.products-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.success-view {
+  list-style: none;
+  width: 100%;
+}

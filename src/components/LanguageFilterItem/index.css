@@ -1,1 +1,16 @@
 /* Write your CSS here */
+.language-button {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-family: roboto;
+}
+
+.language-item {
+  margin: 5px;
+}
+.active {
+  border: solid 2px #0284c7;
+  color: #0284c7;
+  border-radius: 10px;
+}
